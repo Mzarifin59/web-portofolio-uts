@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "Muhammad Rifky Arifin",
+    "role": "Web Developer",
+    "intro": "Saya membuat website yang rapi, cepat, dan mudah digunakan.",
+    "photo": "/assets/my-image.jpg",
+    "about": "Halo! Saya mahasiswa yang suka belajar pemrograman web. Saya senang mengubah ide menjadi tampilan yang nyata dan terus mencoba teknologi baru. Di luar coding, saya suka membaca dan bersepeda.",
+    "email": "arifinrifky326@email.com",
+    "location": "Bandung, Jawa Barat",
+    "socials": [
+      { "name": "GitHub", "icon": "bi-github", "url": "https://github.com/Mzarifin59" },
+      { "name": "LinkedIn", "icon": "bi-linkedin", "url": "www.linkedin.com/in/rifky-arifin" },
+      { "name": "Instagram", "icon": "bi-instagram", "url": "https://www.instagram.com/rif_kya596?psln=czhkZDE1NDFlbHEw" }
+    ]
+  },
+  "skills": [
+    { "name": "HTML", "level": 90 },
+    { "name": "CSS", "level": 80 },
+    { "name": "Bootstrap", "level": 80 },
+    { "name": "JavaScript", "level": 65 },
+    { "name": "Git & GitHub", "level": 60 }
+  ],
+  "projects": [
+    {
+      "title": "Toko Online Sederhana",
+      "description": "Halaman katalog produk yang responsif dengan keranjang belanja.",
+      "image": "/assets/toko-online.jfif",
+      "tags": ["HTML", "Bootstrap"],
+      "link": "#"
+    },
+    {
+      "title": "Aplikasi Catatan Harian",
+      "description": "Catat dan kelola kegiatan harian dengan penyimpanan di browser.",
+      "image": "/assets/catatan-harian.jfif",
+      "tags": ["JavaScript", "CSS"],
+      "link": "#"
+    },
+    {
+      "title": "Landing Page Kafe",
+      "description": "Website promosi kafe lokal dengan menu dan lokasi.",
+      "image": "/assets/landing-page-kafe.jfif",
+      "tags": ["HTML", "CSS", "Bootstrap"],
+      "link": "#"
+    }
+  ]
+}

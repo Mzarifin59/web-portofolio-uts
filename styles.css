@@ -1,0 +1,171 @@
+:root {
+  --ink: #1d2b2a;
+  --muted: #5d6b6a;
+  --paper: #f7f5f0;
+  --accent: #0f766e;
+  --accent-dark: #0b5a54;
+  --sun: #f2b84b;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+.navbar {
+  background: var(--paper);
+  border-bottom: 1px solid #e3e0d7;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.nav-link {
+  color: var(--ink);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--accent);
+}
+
+section {
+  padding: 80px 0;
+}
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 4px;
+  margin-top: 10px;
+  background: var(--sun);
+  border-radius: 2px;
+}
+
+.hero {
+  padding-top: 110px;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  line-height: 1.15;
+}
+
+.hero .role {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.hero-photo {
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50% 50% 50% 12%;
+  border: 6px solid var(--sun);
+}
+
+.btn-main {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.btn-main:hover {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: #fff;
+}
+
+.btn-line {
+  border: 2px solid var(--accent);
+  color: var(--accent);
+}
+
+.btn-line:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.about-box {
+  background: #fff;
+  border-left: 5px solid var(--accent);
+  padding: 28px;
+  border-radius: 6px;
+}
+
+.skill-item {
+  margin-bottom: 20px;
+}
+
+.progress {
+  height: 10px;
+  background: #e3e0d7;
+}
+
+.progress-bar {
+  background: var(--accent);
+}
+
+.project-card {
+  border: 1px solid #e3e0d7;
+  overflow: hidden;
+}
+
+.project-card img {
+  height: 190px;
+  object-fit: cover;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 10px;
+  margin: 0 4px 4px 0;
+  font-size: 0.8rem;
+  color: var(--accent-dark);
+  background: #d9ece9;
+  border-radius: 20px;
+}
+
+.contact {
+  background: var(--ink);
+  color: #fff;
+}
+
+.contact .section-title::after {
+  background: var(--sun);
+}
+
+.contact a {
+  color: var(--sun);
+  text-decoration: none;
+}
+
+.social-link {
+  font-size: 1.6rem;
+  margin-right: 14px;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
